@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI_LABS.ProgressBarPage"
+             Title="ProgressBarPage">
+
+
+    <AbsoluteLayout >
+        <Label x:Name ="LabelName"
+            Text="Result" 
+               FontSize = "12"
+           AbsoluteLayout.LayoutBounds = "75, 10, 200, 100" />
+
+
+        <Label x:Name ="LabelPercentName"
+           AbsoluteLayout.LayoutBounds = "205, 175, 40, 40" />
+
+        <Button FontSize = "16" Text = "Start" BackgroundColor ="#fab81e" AbsoluteLayout.LayoutBounds="30, 350, 80, 45" Clicked = "GetIntegral"/>
+        <Button FontSize = "16" Text = "Cancel" BackgroundColor ="#fab81e" AbsoluteLayout.LayoutBounds="130, 350, 80, 45" Clicked = "Cancel" />
+        <ProgressBar x:Name ="BarName" Progress="0.0" ProgressColor="#fab81e"  AbsoluteLayout.LayoutBounds="30, 180, 170, 10"/>
+
+
+    </AbsoluteLayout>
+</ContentPage>

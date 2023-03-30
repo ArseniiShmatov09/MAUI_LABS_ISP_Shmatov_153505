@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MAUI_LABS.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MAUI_LABS"
+    Shell.FlyoutBehavior="Flyout">
+
+    <FlyoutItem
+        Title = "Home" >
+        <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="HomePage" />
+    </FlyoutItem>
+
+    <FlyoutItem
+        Title = "CalculatorPage" >
+        <ShellContent
+        Title="Calculator"
+        ContentTemplate="{DataTemplate local:CalculatorPage}"
+        Route="CalculatorPage" />
+    </FlyoutItem>
+
+    <FlyoutItem
+        Title = "ProgressBarPage" >
+        <ShellContent
+        Title="ProgressBar"
+        ContentTemplate="{DataTemplate local:ProgressBarPage}"
+        Route="ProgressBarPage" />
+    </FlyoutItem>
+
+
+</Shell>
