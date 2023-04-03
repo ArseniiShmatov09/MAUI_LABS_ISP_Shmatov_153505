@@ -1,4 +1,8 @@
-﻿namespace MAUI_LABS;
+﻿using MAUI_LABS.Services;
+using Microsoft.Extensions.DependencyInjection;
+
+
+namespace MAUI_LABS;
 
 public static class MauiProgram
 {
@@ -6,13 +10,19 @@ public static class MauiProgram
 	{
 		var builder = MauiApp.CreateBuilder();
 		builder
-			.UseMauiApp<App>()
+            .UseMauiApp<App>()
 			.ConfigureFonts(fonts =>
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-			});
 
-		return builder.Build();
+            });
+        builder.Services.AddSingleton<IDbService, SQLiteService>();
+        builder.Services.AddSingleton<DataBase>();
+
+        return builder.Build();
 	}
+
+
+
 }

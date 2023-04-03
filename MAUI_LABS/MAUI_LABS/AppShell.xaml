@@ -30,5 +30,13 @@
         Route="ProgressBarPage" />
     </FlyoutItem>
 
+    <FlyoutItem
+        Title = "DataBasePage" >
+        <ShellContent
+        Title="DataBase"
+        ContentTemplate="{DataTemplate local:DataBase}"
+        Route="DataBasePage" />
+    </FlyoutItem>
+
 
 </Shell>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI_LABS.DataBase"
+             Title="DataBasePage">
+    <VerticalStackLayout>
+
+        <Picker x:Name="AuthorPicker"              
+                Margin="10"
+                HorizontalOptions="Center"
+                FontSize ="25"
+                SelectedIndexChanged="OnAuthorPickerSelectedIndexChanged">
+        </Picker>
+
+        <Grid ColumnDefinitions="*, *, *" Margin="2">
+            <Label x:Name="LTitle" Text="" FontSize="12" TextColor="Gray" Grid.Column="0"  HorizontalOptions="Center"/>
+            <Label x:Name="LYearOfPublication" Text="" FontSize="12" TextColor="Gray" Grid.Column="1"  HorizontalOptions="Center"/>
+            <Label x:Name="LPrice"  Text="" FontSize="12" TextColor="Gray" Grid.Column="2"  HorizontalOptions="Center"/>
+        </Grid>
+        <CollectionView x:Name="booksCollectionView" ItemsSource="{Binding Books}">
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <VerticalStackLayout>
+                        <Grid ColumnDefinitions="*, *, *">
+                            <Label Text="{Binding Title} " FontSize="24" Grid.Column="0"  HorizontalOptions="Center"/>
+                            <Label Text="{Binding YearOfPublication} " FontSize="24" Grid.Column="1" HorizontalOptions="Center"/>
+                            <Label Text="{Binding Price} " FontSize="24" Grid.Column="2" HorizontalOptions="Center"/>
+                        </Grid>
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+            
+        </CollectionView>
+        
+    </VerticalStackLayout>
+</ContentPage>

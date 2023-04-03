@@ -27,6 +27,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUI_LABS.CalculatorPage.x
 build_metadata.AdditionalFiles.TargetPath = CalculatorPage.xaml
 build_metadata.AdditionalFiles.RelativePath = CalculatorPage.xaml
 
+[D:/ISP_4_SEMESTR/MAUI_LABS/MAUI_LABS/DataBase.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_LABS.DataBase.xaml
+build_metadata.AdditionalFiles.TargetPath = DataBase.xaml
+build_metadata.AdditionalFiles.RelativePath = DataBase.xaml
+
 [D:/ISP_4_SEMESTR/MAUI_LABS/MAUI_LABS/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI_LABS.MainPage.xaml
