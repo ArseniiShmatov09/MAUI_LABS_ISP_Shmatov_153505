@@ -10,7 +10,7 @@ namespace MAUI_LABS.Services
 
         public SQLiteService()
         {
-            database = new SQLiteConnection(path);
+            database = new SQLiteConnection(path);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
             database.CreateTable<Author>();
             database.CreateTable<Book>();
 

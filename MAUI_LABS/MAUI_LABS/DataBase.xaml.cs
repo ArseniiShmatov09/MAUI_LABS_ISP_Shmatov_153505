@@ -7,7 +7,7 @@ namespace MAUI_LABS;
 public partial class DataBase : ContentPage
 {
     private readonly IDbService _dbService;
-    private readonly ObservableCollection<Book> _books = new ObservableCollection<Book>();
+    public ObservableCollection<Book> Books { get; set; } = new ObservableCollection<Book>();
     private readonly ObservableCollection<Author> _authors = new ObservableCollection<Author>();
     private string _selectedAuthorName;
 
@@ -19,9 +19,10 @@ public partial class DataBase : ContentPage
         dbService.DeleteAllData();
         dbService.Init();
         InitializeComponent();
+        BindingContext = this;
         LoadAuthors();
 
-        booksCollectionView.ItemsSource = _books;
+     //   booksCollectionView.ItemsSource = _books;
 
     }
     private void LoadAuthors()
@@ -44,13 +45,13 @@ public partial class DataBase : ContentPage
 
         _selectedAuthorName = author.Name;
 
-        _books.Clear();
+        Books.Clear();
 
         var books = _dbService.GetAuthorBooks(author.Id);
         
         foreach (var book in books)
         {
-            _books.Add(book);
+            Books.Add(book);
 
         }
 

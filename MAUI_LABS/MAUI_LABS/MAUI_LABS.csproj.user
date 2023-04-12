@@ -9,6 +9,9 @@
     <MauiXaml Update="CalculatorPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="ConverterPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="DataBase.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

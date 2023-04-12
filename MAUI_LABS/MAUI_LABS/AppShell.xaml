@@ -38,5 +38,13 @@
         Route="DataBasePage" />
     </FlyoutItem>
 
+    <FlyoutItem
+        Title = "ConverterPage" >
+        <ShellContent
+        Title="Converter"
+        ContentTemplate="{DataTemplate local:ConverterPage}"
+        Route="ConverterPage" />
+    </FlyoutItem>
+
 
 </Shell>

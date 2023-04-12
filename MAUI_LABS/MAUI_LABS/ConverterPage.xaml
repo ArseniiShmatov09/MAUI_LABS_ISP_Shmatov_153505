@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI_LABS.ConverterPage"
+             Title="ConverterPage">
+    <StackLayout>
+
+        <Picker x:Name="fromCurrencyPicker"
+                Title="Pick currency"
+                SelectedIndexChanged="fromCurrencyPicker_SelectedIndexChanged"
+                Margin="10"/>
+
+        <DatePicker x:Name="datePicker"
+                    Format="d" DateSelected="DateSelected"
+                    Margin="10"/>
+
+        <Button Text="Convert to BYN"
+                Clicked="Button_Clicked_BYN"
+                Margin="10"/>
+
+        <Entry x:Name="YrCurCount"
+               Placeholder = "Enter count in selected currency"
+               Margin="10"
+               Completed="ChangedValueTo"/>
+
+        <Label x:Name="ResultInBYN"
+               Margin="10"/>
+
+        <Button Text="Convert To Picked currency"
+                Clicked="Button_Clicked_Other_Cur"
+                Margin="10"/>
+
+        <Entry x:Name="BYNCount"
+               Placeholder = "Enter count in BYN"
+               Margin="10"
+               Completed="ChangedValueFrom"/>
+        
+        <Label x:Name="ResultInOtherCur"
+               Margin="10"/>
+    </StackLayout>
+</ContentPage>
