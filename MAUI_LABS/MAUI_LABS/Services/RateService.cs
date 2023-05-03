@@ -20,7 +20,7 @@ namespace MAUI_LABS.Services
             _httpClient = httpClient;
         }
 
-        public IEnumerable<Rate> GetRates(DateTime date, Currency currency)
+        public Rate GetRates(DateTime date, Currency currency)
         {
             string requestUrl = $"{_baseUrl}{currency.Cur_ID}?ondate={date:yyyy-MM-dd}";
 
@@ -32,9 +32,9 @@ namespace MAUI_LABS.Services
             }
 
             string responseContent = response.Content.ReadAsStringAsync().Result;
-            Rate rate = JsonConvert.DeserializeObject<Rate>(responseContent);
+            var rate = JsonConvert.DeserializeObject<Rate>(responseContent);
 
-            yield return rate;
+             return rate;
         }
     }
 }

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "153505_Shmatov.Applications/1.0.0": {
+        "dependencies": {
+          "153505_Shmatov.Domain": "1.0.0"
+        },
+        "runtime": {
+          "153505_Shmatov.Applications.dll": {}
+        }
+      },
+      "153505_Shmatov.Domain/1.0.0": {
+        "runtime": {
+          "153505_Shmatov.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "153505_Shmatov.Applications/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "153505_Shmatov.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

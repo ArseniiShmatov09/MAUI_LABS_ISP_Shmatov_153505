@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="_153505_ShmatovNEW.UI.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:_153505_ShmatovNEW.UI"
+    xmlns:pages="clr-namespace:_153505_ShmatovNEW.UI.Pages"
+    >
+    <FlyoutItem Title="Main Page" Icon="main.png">
+
+        <ShellContent
+        Title="Main Page"
+        ContentTemplate="{DataTemplate local:MainPage }"
+        Route="Main" />
+    </FlyoutItem>
+
+
+    <FlyoutItem Title="Authors list" Icon="author.png">
+
+        <ShellContent
+        Title="Author list"
+        ContentTemplate="{DataTemplate pages:AuthorsManager }"
+        Route="Authors" />
+    </FlyoutItem>
+</Shell>

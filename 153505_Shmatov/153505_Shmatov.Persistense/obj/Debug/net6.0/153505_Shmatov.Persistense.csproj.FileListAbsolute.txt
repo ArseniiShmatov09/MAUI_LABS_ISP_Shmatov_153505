@@ -1,0 +1,15 @@
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Persistense\bin\Debug\net6.0\153505_Shmatov.Persistense.deps.json
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Persistense\bin\Debug\net6.0\153505_Shmatov.Persistense.dll
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Persistense\bin\Debug\net6.0\153505_Shmatov.Persistense.pdb
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Persistense\bin\Debug\net6.0\153505_Shmatov.Domain.dll
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Persistense\bin\Debug\net6.0\153505_Shmatov.Domain.pdb
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Persistense\obj\Debug\net6.0\153505_Shmatov.Persistense.csproj.AssemblyReference.cache
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Persistense\obj\Debug\net6.0\153505_Shmatov.Persistense.GeneratedMSBuildEditorConfig.editorconfig
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Persistense\obj\Debug\net6.0\153505_Shmatov.Persistense.AssemblyInfoInputs.cache
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Persistense\obj\Debug\net6.0\153505_Shmatov.Persistense.AssemblyInfo.cs
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Persistense\obj\Debug\net6.0\153505_Shmatov.Persistense.csproj.CoreCompileInputs.cache
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Persistense\obj\Debug\net6.0\153505_Shmatov.Persistense.csproj.CopyComplete
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Persistense\obj\Debug\net6.0\153505_Shmatov.Persistense.dll
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Persistense\obj\Debug\net6.0\refint\153505_Shmatov.Persistense.dll
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Persistense\obj\Debug\net6.0\153505_Shmatov.Persistense.pdb
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Persistense\obj\Debug\net6.0\ref\153505_Shmatov.Persistense.dll

@@ -1,4 +1,3 @@
-D:\ISP_4_SEMESTR\MAUI_LABS\MAUI_LABS\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.MacCatalyst.dll
 D:\ISP_4_SEMESTR\MAUI_LABS\MAUI_LABS\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\MAUI_LABS.runtimeconfig.json
 D:\ISP_4_SEMESTR\MAUI_LABS\MAUI_LABS\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\MAUI_LABS.dll
 D:\ISP_4_SEMESTR\MAUI_LABS\MAUI_LABS\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\MAUI_LABS.pdb
@@ -197,6 +196,7 @@ D:\ISP_4_SEMESTR\MAUI_LABS\MAUI_LABS\bin\Debug\net6.0-maccatalyst\maccatalyst-x6
 D:\ISP_4_SEMESTR\MAUI_LABS\MAUI_LABS\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.Xaml.dll
 D:\ISP_4_SEMESTR\MAUI_LABS\MAUI_LABS\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.dll
 D:\ISP_4_SEMESTR\MAUI_LABS\MAUI_LABS\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Essentials.dll
+D:\ISP_4_SEMESTR\MAUI_LABS\MAUI_LABS\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.MacCatalyst.dll
 D:\ISP_4_SEMESTR\MAUI_LABS\MAUI_LABS\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\System.Private.CoreLib.dll
 D:\ISP_4_SEMESTR\MAUI_LABS\MAUI_LABS\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\icudt.dat
 D:\ISP_4_SEMESTR\MAUI_LABS\MAUI_LABS\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\icudt_CJK.dat

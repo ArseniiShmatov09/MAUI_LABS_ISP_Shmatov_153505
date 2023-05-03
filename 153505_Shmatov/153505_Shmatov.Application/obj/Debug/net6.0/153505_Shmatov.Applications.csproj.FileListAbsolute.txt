@@ -1,0 +1,15 @@
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Application\bin\Debug\net6.0\153505_Shmatov.Applications.deps.json
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Application\bin\Debug\net6.0\153505_Shmatov.Applications.dll
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Application\bin\Debug\net6.0\153505_Shmatov.Applications.pdb
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Application\bin\Debug\net6.0\153505_Shmatov.Domain.dll
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Application\bin\Debug\net6.0\153505_Shmatov.Domain.pdb
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Application\obj\Debug\net6.0\153505_Shmatov.Applications.csproj.AssemblyReference.cache
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Application\obj\Debug\net6.0\153505_Shmatov.Applications.GeneratedMSBuildEditorConfig.editorconfig
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Application\obj\Debug\net6.0\153505_Shmatov.Applications.AssemblyInfoInputs.cache
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Application\obj\Debug\net6.0\153505_Shmatov.Applications.AssemblyInfo.cs
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Application\obj\Debug\net6.0\153505_Shmatov.Applications.csproj.CoreCompileInputs.cache
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Application\obj\Debug\net6.0\153505_Shmatov.Applications.csproj.CopyComplete
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Application\obj\Debug\net6.0\153505_Shmatov.Applications.dll
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Application\obj\Debug\net6.0\refint\153505_Shmatov.Applications.dll
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Application\obj\Debug\net6.0\153505_Shmatov.Applications.pdb
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Application\obj\Debug\net6.0\ref\153505_Shmatov.Applications.dll

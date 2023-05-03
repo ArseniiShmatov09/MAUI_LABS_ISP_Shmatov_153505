@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_153505_ShmatovNEW.UI.Pages.AuthorsManager"
+             xmlns:models ="clr-namespace:_153505_ShmatovNEW.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:ent="clr-namespace:_153505_Shmatov.Domain.Entities;assembly=153505_Shmatov.Domain"
+             xmlns:converter="clr-namespace:_153505_ShmatovNEW.UI.ValueConverters"
+             x:DataType="models:AuthorsViewModel"
+             BackgroundColor="SeaShell"
+             Title="AuthorManager">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:RateToColorValueConverter x:Key="RateToColor"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior 
+            EventName="Loaded"
+            Command="{Binding UpdateGroupListCommand }"/>
+    </ContentPage.Behaviors>
+
+
+    <VerticalStackLayout  HorizontalOptions="Center">
+
+        <Picker x:Name = "authorPicker" 
+                ItemsSource="{Binding Authors }"
+                ItemDisplayBinding="{Binding Name}"
+                SelectedItem="{Binding SelectedAuthor}"
+               >
+
+            <Picker.Behaviors>
+                <toolkit:EventToCommandBehavior 
+                    EventName="SelectedIndexChanged"
+                    Command="{Binding UpdateMembersListCommand}"/>
+            </Picker.Behaviors>
+        </Picker>
+
+        <VerticalStackLayout  HorizontalOptions="Center">
+            <Frame BackgroundColor="#FAEA96" Padding="5">
+                <HorizontalStackLayout>
+                    <Label Text="Age:    " />
+                    <Label Text = "{Binding SelectedAuthor.Age}"/>
+                </HorizontalStackLayout>
+            </Frame>
+            <Frame BackgroundColor="#FAEA96" Padding="5">
+                <HorizontalStackLayout>
+                    <Label Text="Date of birth:    " />
+                    <Label Text = "{Binding SelectedAuthor.DateOfBirth}"/>
+                </HorizontalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+
+        <HorizontalStackLayout Margin="5">
+            <Button BackgroundColor="#FFFFAF7E" Text="Add Author" TextColor="Black" Command="{Binding AddAuthorCommand}"/>
+            <Button BackgroundColor="#FFFFAF7E" Text="Add Book" TextColor="Black" Command= "{Binding AddBookCommand}" />
+        </HorizontalStackLayout>
+
+        <ScrollView HeightRequest="400">
+            <CollectionView  HorizontalOptions="Center" ItemsSource="{Binding Books}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="ent:Book" >
+                        <Frame Margin="5" BackgroundColor="{Binding Rating, Converter={StaticResource RateToColor} }">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source = {RelativeSource AncestorType = {x:Type models:AuthorsViewModel} },
+                                 Path = ShowDetailsCommand}" CommandParameter="{Binding}"/>
+                            </Frame.GestureRecognizers>
+                            <HorizontalStackLayout>
+                                <Label Text= "{Binding Name}"/>
+                            </HorizontalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+        
+    </VerticalStackLayout>
+</ContentPage>

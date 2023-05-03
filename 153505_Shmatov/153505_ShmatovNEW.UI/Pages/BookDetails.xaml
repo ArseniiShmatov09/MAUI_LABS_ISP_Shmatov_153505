@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_153505_ShmatovNEW.UI.Pages.BookDetails"
+             Title="BookDetails"
+             Loaded="OnLoadPage"
+             BackgroundColor="SeaShell">
+
+    
+    <VerticalStackLayout  HorizontalOptions="Center" >
+        <Image x:Name="image" HeightRequest="150" WidthRequest="200" HorizontalOptions="Center" Margin="5" />
+        <Frame BackgroundColor="#FCBC15" Margin="5">
+            <HorizontalStackLayout>
+                <Label x:Name="nameL"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame BackgroundColor="#FFFCBC15" Margin="5">
+            <HorizontalStackLayout>
+                <Label x:Name="ratingL"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame BackgroundColor="#FFFCBC15" Margin="5">
+            <HorizontalStackLayout>
+                <Label x:Name="yearOfPublicationL"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame BackgroundColor="#FFFCBC15" Margin="5">
+            <HorizontalStackLayout>
+                <Label x:Name="priceL"/>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <HorizontalStackLayout Margin="5" HorizontalOptions="Center">
+            <Button BackgroundColor="#FFFFAF7E" TextColor="Black" Text="Edit Book" Command="{Binding EditBookCommand}"/>
+            <Button BackgroundColor="#FFFFAF7E" TextColor="Black" Text="Add photo" Command="{Binding ChangePhotoCommand}"/>
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+
+</ContentPage>

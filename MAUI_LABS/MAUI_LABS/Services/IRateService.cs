@@ -9,6 +9,6 @@ namespace MAUI_LABS.Services
 {
     public interface IRateService
     {
-        IEnumerable<Rate> GetRates(DateTime date, Currency currency);
+        Rate GetRates(DateTime date, Currency currency);
     }
 }

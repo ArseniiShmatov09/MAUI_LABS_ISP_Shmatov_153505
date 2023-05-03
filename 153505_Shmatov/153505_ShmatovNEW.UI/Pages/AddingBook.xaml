@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_153505_ShmatovNEW.UI.Pages.AddingBook"
+             Title="AddingBook"
+              BackgroundColor="SeaShell">
+    <VerticalStackLayout HorizontalOptions="Center">
+
+        <Frame BackgroundColor="#FFFFFBCF" Padding="5">
+            <HorizontalStackLayout Margin="5">
+                <Label Text="Enter Name: "/>
+                <Entry x:Name="nameEntry"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame BackgroundColor="#FFFFFBCF" Padding="5">
+            <HorizontalStackLayout>
+                <Label Text="Enter Rating: "/>
+                <Entry x:Name="ratingEntry"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame BackgroundColor="#FFFFFBCF" Padding="5">
+            <HorizontalStackLayout>
+                <Label Text="Enter Year of Publication: "/>
+                <Entry x:Name="yearEntry"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame BackgroundColor="#FFFFFBCF" Padding="5">
+            <HorizontalStackLayout>
+                <Label Text="Enter Price: "/>
+                <Entry x:Name="priceEntry"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame BackgroundColor="#FFFFFBCF" Padding="5">
+            <HorizontalStackLayout>
+                <Label Text="Enter Author Name: "/>
+                <Entry x:Name="authorNameEntry"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame BackgroundColor="#FFFFFBCF" Padding="5">
+            <HorizontalStackLayout>
+                <Label x:Name="alertLabel" TextColor="Red"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Button TextColor="Black" BackgroundColor="#FFFFAF7E" Text="Add" Clicked="OnAddClicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>

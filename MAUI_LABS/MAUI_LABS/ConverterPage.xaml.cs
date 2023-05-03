@@ -39,7 +39,7 @@ public partial class ConverterPage : ContentPage
 
     private void Button_Clicked_BYN(object sender, EventArgs e)
     {
-        double temp = (Convert.ToDouble(_rateService.GetRates(_date, Currencies[curIndex]).Last<Rate>().Cur_OfficialRate) * YrCurvalue);
+        double temp = (Convert.ToDouble(_rateService.GetRates(_date, Currencies[curIndex]).Cur_OfficialRate) * YrCurvalue);
 
         if (curIndex == 0) temp /=100;
         
@@ -64,7 +64,7 @@ public partial class ConverterPage : ContentPage
 
     private void Button_Clicked_Other_Cur(object sender, EventArgs e)
     {
-        double temp = BYNvalue/(Convert.ToDouble(_rateService.GetRates(_date, Currencies[curIndex]).Last<Rate>().Cur_OfficialRate));
+        double temp =Math.Round(BYNvalue/(Convert.ToDouble(_rateService.GetRates(_date, Currencies[curIndex]).Cur_OfficialRate)),3);
 
         if (curIndex == 0) temp *= 100;
         ResultInOtherCur.Text = temp.ToString() + " " + Currencies[curIndex].Cur_Abbreviation;

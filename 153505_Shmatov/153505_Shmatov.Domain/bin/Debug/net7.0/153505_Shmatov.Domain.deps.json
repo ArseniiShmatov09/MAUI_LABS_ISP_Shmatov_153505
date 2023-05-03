@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "153505_Shmatov.Domain/1.0.0": {
+        "runtime": {
+          "153505_Shmatov.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "153505_Shmatov.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_153505_ShmatovNEW.UI.Pages.AddingAuthor"
+             Title="AddAuthor"
+             BackgroundColor="SeaShell">
+    <VerticalStackLayout HorizontalOptions="Center">
+
+        <Frame BackgroundColor="#FFFFFBCF" Padding="5">
+            <HorizontalStackLayout Margin="5">
+                <Label Text="Enter Name: "/>
+                <Entry x:Name="nameEntry"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame BackgroundColor="#FFFFFBCF" Padding="5">
+            <HorizontalStackLayout>
+                <Label Text="Enter Age: "/>
+                <Entry x:Name="ageEntry"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame BackgroundColor="#FFFFFBCF" Padding="5">
+            <HorizontalStackLayout>
+                <Label Text="Enter Date of Birth: "/>
+                <Entry x:Name="dateEntry"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Frame BackgroundColor="#FFFFFBCF" Padding="5">
+            <HorizontalStackLayout>
+                <Label x:Name="alertLabel" TextColor="Red"/>
+            </HorizontalStackLayout>
+        </Frame>
+        <Button TextColor="Black" BackgroundColor="#FFFFAF7E" Text="Add" Clicked="OnAddClicked"/>
+    
+    </VerticalStackLayout>
+</ContentPage>

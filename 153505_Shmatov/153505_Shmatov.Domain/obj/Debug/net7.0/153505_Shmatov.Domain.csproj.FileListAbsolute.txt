@@ -1,0 +1,12 @@
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Domain\bin\Debug\net7.0\153505_Shmatov.Domain.deps.json
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Domain\bin\Debug\net7.0\153505_Shmatov.Domain.dll
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Domain\bin\Debug\net7.0\153505_Shmatov.Domain.pdb
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Domain\obj\Debug\net7.0\153505_Shmatov.Domain.csproj.AssemblyReference.cache
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Domain\obj\Debug\net7.0\153505_Shmatov.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Domain\obj\Debug\net7.0\153505_Shmatov.Domain.AssemblyInfoInputs.cache
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Domain\obj\Debug\net7.0\153505_Shmatov.Domain.AssemblyInfo.cs
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Domain\obj\Debug\net7.0\153505_Shmatov.Domain.csproj.CoreCompileInputs.cache
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Domain\obj\Debug\net7.0\153505_Shmatov.Domain.dll
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Domain\obj\Debug\net7.0\refint\153505_Shmatov.Domain.dll
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Domain\obj\Debug\net7.0\153505_Shmatov.Domain.pdb
+D:\ISP_4_SEMESTR\153505_Shmatov\153505_Shmatov.Domain\obj\Debug\net7.0\ref\153505_Shmatov.Domain.dll

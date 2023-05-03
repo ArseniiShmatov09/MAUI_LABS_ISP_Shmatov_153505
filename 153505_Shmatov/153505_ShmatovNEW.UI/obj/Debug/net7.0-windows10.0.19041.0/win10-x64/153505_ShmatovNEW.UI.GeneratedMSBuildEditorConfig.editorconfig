@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net7.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = _153505_ShmatovNEW.UI
+build_property.ProjectDir = D:\ISP_4_SEMESTR\153505_Shmatov\153505_ShmatovNEW.UI\
+
+[D:/ISP_4_SEMESTR/153505_Shmatov/153505_ShmatovNEW.UI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _153505_ShmatovNEW.UI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/ISP_4_SEMESTR/153505_Shmatov/153505_ShmatovNEW.UI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _153505_ShmatovNEW.UI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/ISP_4_SEMESTR/153505_Shmatov/153505_ShmatovNEW.UI/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _153505_ShmatovNEW.UI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/ISP_4_SEMESTR/153505_Shmatov/153505_ShmatovNEW.UI/Pages/AddingAuthor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _153505_ShmatovNEW.UI.Pages.AddingAuthor.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddingAuthor.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddingAuthor.xaml
+
+[D:/ISP_4_SEMESTR/153505_Shmatov/153505_ShmatovNEW.UI/Pages/AddingBook.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _153505_ShmatovNEW.UI.Pages.AddingBook.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddingBook.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddingBook.xaml
+
+[D:/ISP_4_SEMESTR/153505_Shmatov/153505_ShmatovNEW.UI/Pages/AuthorsManager.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _153505_ShmatovNEW.UI.Pages.AuthorsManager.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AuthorsManager.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AuthorsManager.xaml
+
+[D:/ISP_4_SEMESTR/153505_Shmatov/153505_ShmatovNEW.UI/Pages/BookDetails.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _153505_ShmatovNEW.UI.Pages.BookDetails.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\BookDetails.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\BookDetails.xaml
+
+[D:/ISP_4_SEMESTR/153505_Shmatov/153505_ShmatovNEW.UI/Pages/EditingBook.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _153505_ShmatovNEW.UI.Pages.EditingBook.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\EditingBook.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\EditingBook.xaml
+
+[D:/ISP_4_SEMESTR/153505_Shmatov/153505_ShmatovNEW.UI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _153505_ShmatovNEW.UI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/ISP_4_SEMESTR/153505_Shmatov/153505_ShmatovNEW.UI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _153505_ShmatovNEW.UI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
